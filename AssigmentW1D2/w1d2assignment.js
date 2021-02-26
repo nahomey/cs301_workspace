@@ -31,10 +31,10 @@
 
 // // Q .5
 
-// let prompt = require("prompt-sync")();
-// let age = +prompt("enter your age");
-// let range = 220 - age
-// let fastestHeartRates = range * .85
-// let slowestHeartRates = range * .65
-// console.log("fastestHeartRates: is " + fastestHeartRates);
-// console.log("slowestHeartRates: is " + slowestHeartRates);
+let prompt = require("prompt-sync")();
+let age = +prompt("enter your age");
+let range = 220 - age
+let fastestHeartRates = range * .85
+let slowestHeartRates = range * .65
+console.log("fastestHeartRates: is " + fastestHeartRates);
+console.log("slowestHeartRates: is " + slowestHeartRates);
