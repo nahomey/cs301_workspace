@@ -46,7 +46,34 @@ if (pin === guess) {
 
 }
 // Q.4
-// Q.5
+
+let fibNum = prompt("enter the number")
+let i = 0;
+let j = 1;
+let count = 1;
+let result = "";
+result = result + i + "," + j + ",";
+while (count < fibNum) {
+    let nextNum = i + j;
+    result = result + nextNum + ",";
+    i = j
+    j = nextNum;
+    count++;
+}
+console.log(result);
+
+// Q5
+let value = prompt("Enter a digit here")
+let sum = 0
+for (let j = 0; j < value.length; j++) {
+    sum += parseInt(value[j])
+}
+console.log(sum)
+
+
+
+
+
 
 //Q.6
 
