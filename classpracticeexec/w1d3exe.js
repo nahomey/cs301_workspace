@@ -31,18 +31,18 @@
 // } else {
 //     console.log("you can drive")
 // }
-let prompt = require("prompt-sync")();
-let number = +prompt("enter a number between 1 and 5: ");
+// let prompt = require("prompt-sync")();
+// let number = +prompt("enter a number between 1 and 5: ");
 
 // let in_words = "";
 
-if (numner === 2) {
-    console.log("two");
-} else if (number === 3) {
-    console.log("three");
-} else if (number === 4) {
-    console.log("four")
-}
+// if (numner === 2) {
+//     console.log("two");
+// } else if (number === 3) {
+//     console.log("three");
+// } else if (number === 4) {
+//     console.log("four")
+// }
 // console.log( in _words);
 
 
@@ -57,16 +57,56 @@ if (numner === 2) {
 // case ( 4 ):
 //     console.log("four")
 
-let weather = prompt("what is the weather outside?");
-let temp = prompt("what is the temprature like?");
+// let weather = prompt("what is the weather outside?");
+// let temp = prompt("what is the temprature like?");
 
-if (weather === "sunny " && temp < 80) {
+// if (weather === "sunny " && temp < 80) {
 
-}
+// }
 
 
-switch (weather)
-case "sunny" && temp < 80 ":
-console.log("Good day for out door running");
-break;
-case ""
+// switch (weather)
+// case "sunny" && temp < 80 ":
+// console.log("Good day for out door running");
+// break;
+// case ""let fedtax;
+
+
+// let grossSalary;
+
+// function habtam(grossSalary) {
+//     if (grossSalary < 20000) {
+//         federalTax = 0
+//     } else if (grossSalary < 50000) {
+//         federalTax = grossSalary * 0.05
+//     } else {
+//         federalTax = grossSalary * 0.1
+//     }
+//     return federalTax;
+// }
+// console.log(habtam(100000));l
+
+
+// function area() {
+//     let radius = +prompt("Enter the radius of circle")
+//     return Math.PI * radius * radius
+
+// }
+// let primeNumber;
+
+// function testPrime() {
+//     if ()
+// }
+// let i = -1
+// for (let i = 0; i < 7; i++) {
+//     console.log(i);
+// }
+// let i = 1;
+// while (i < 10) {
+//     console.log(i);
+//     i = i + 3
+
+let prompt = require("prompt-sync")();
+let farenheght = +prompt("enter the temp value: ");
+celcius = (farenheght - 32) * 5 / 9
+console.log(celcius);
