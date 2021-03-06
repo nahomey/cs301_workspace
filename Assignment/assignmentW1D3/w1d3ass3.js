@@ -1,6 +1,6 @@
 let prompt = require("prompt-sync")();
 
-Q .1
+//Q .1
 
 let weather = +prompt("enter the weather condition");
 if (weather == "hot") {
@@ -14,7 +14,7 @@ if (weather == "hot") {
 }
 
 
-Q .2
+//Q .2
 
 let name = prompt("enter student name: ");
 let credit = prompt("enter number of credits: ");
@@ -28,7 +28,7 @@ if (completedcredits > 0 && completedcredits < 30) {
     console.log("Senior");
 }
 
-Q .3
+//Q .3
 let cost = +prompt("Enter cost of the house: ");
 
 if (cost < 50000) {
@@ -42,7 +42,7 @@ if (cost < 50000) {
 }
 
 
-Q .4
+//Q .4
 
 let status = +prompt("enter the status of the person: ");
 let overdueBooks = +prompt("Enter the number of books overdue");
@@ -75,7 +75,7 @@ if (status === "student") {
 
 
 
-Q .5
+//Q .5
 
 let age = +prompt('Enter age ');
 let season = prompt('Enter season ');

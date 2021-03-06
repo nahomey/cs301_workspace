@@ -1,51 +1,51 @@
 const prompt = require("prompt-sync")();
-// // Q .1
+// Q .1
 
-// let prompt = require("prompt-sync")();
-// let num = prompt("enter your number");
+let prompt = require("prompt-sync")();
+let num = prompt("enter your number");
 
-// for (let i = 2; i * i <= num; i++) {
-//     if (num % i === 0) {
-//         console.log("false")
-//     } else {
-//         console.log(num > 1);
-//     }
-// }
+for (let i = 2; i * i <= num; i++) {
+    if (num % i === 0) {
+        console.log("false")
+    } else {
+        console.log(num > 1);
+    }
+}
 
 
 
 // // Q.2
 
 
-// let prompt = require("prompt-sync")();
-// let number = +prompt("please enter a number ");
-// let total = 1;
-// for (let i = number; number > 0; i--) {
-//     total = total * i;
-// }
-// console.log(total);
+let prompt = require("prompt-sync")();
+let number = +prompt("please enter a number ");
+let total = 1;
+for (let i = number; number > 0; i--) {
+    total = total * i;
+}
+console.log(total);
 
 // // Q.3
-// let guess = prompt("Enter your pin number form 1 to 9 ");
-// const pin = "0000";
-// if (pin === guess) {
-//     console.log("correct, welcom back")
-// } else {
-//     console.log("incorrect, try again ")
-//     guess = prompt("please the enter  pin again");
-//     if (pin === guess) {
-//         console.log("correct, welcom back")
-//     } else {
-//         console.log("incorrect, try again ")
-//         guess = prompt("Enter the enter your pin number");
-//         if (pin === guess) {
-//             console.log("correct, welcom back")
-//         } else {
-//             console.log("sorry but You have been locked out")
-//         }
-//     }
+let guess = prompt("Enter your pin number form 1 to 9 ");
+const pin = "0000";
+if (pin === guess) {
+    console.log("correct, welcom back")
+} else {
+    console.log("incorrect, try again ")
+    guess = prompt("please the enter  pin again");
+    if (pin === guess) {
+        console.log("correct, welcom back")
+    } else {
+        console.log("incorrect, try again ")
+        guess = prompt("Enter the enter your pin number");
+        if (pin === guess) {
+            console.log("correct, welcom back")
+        } else {
+            console.log("sorry but You have been locked out")
+        }
+    }
 
-// }
+}
 // // Q.4
 
 // let fibNum = prompt("enter the number")
