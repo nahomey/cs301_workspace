@@ -31,7 +31,6 @@ function checkSpam(str) {
 console.log(checkSpam("michael"));
 console.log(checkSpam("lottery"));
 
-}
 // Q4.
 
 function suffix(str1, str2) {
@@ -49,15 +48,14 @@ function suffix(str1, str2) {
 console.log(suffix("swiming", "running")):
 
     // Q5.
-    let firstChar = s.slice(0, 1);
-let afterFirstChar = s.slice(1);
-let toUpperFirstChar = firstChar.toUpperCase();
-let result = toUpperFirstChar.concat(afterFirstChar);
-return result;
-}​​​​​ 
-console.log(tittleCase("chimdi")); 
-
-queueMicrotask
+    function titleCase(s) {
+        let firstChar = s.slice(0, 1);
+        let afterFirstChar = s.slice(1);
+        let toUpperFirstChar = firstChar.toUpperCase();
+        let result = toUpperFirstChar + afterFirstChar;
+        return result;
+    }​​​​​ 
+console.log(tittleCase("michael"));
 
 // Q .6
 function swap(a, b) {​​​​​
@@ -68,7 +66,6 @@ function swap(a, b) {​​​​​
 }​​​​​
 console.log(swap(5, 4));
 
-queueMicrotask.
 
 Q .7 
 
@@ -92,4 +89,17 @@ users[0] = object1;
 users[1] = object2; 
 console.log(getAverageAge(users));
 
- 
+
+
+// Q8 practice question
+write a
+
+function to
+returnthe sum of the first elements of the inner arraysforarrayswith the following structure.User a
+for...of loop
+
+function sumFirst(arr) { 
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[];
+    }
